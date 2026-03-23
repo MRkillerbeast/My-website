@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxeDrive Motors</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="videos/bg-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+    </div>
+  <header>
+    <nav class="navbar">
+      <h1>LuxeDrive</h1>
+      <ul class="nav-links">
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../About me/About.html">About Us</a></li>
+        <li><a href="../Support/Support.html">Support</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search luxury cars...">
+      <button onclick="filterCars()">Search</button>
+    </div>
+  </header>
+
+  <section class="featured-cars">
+    <h2>Featured Cars</h2>
+    <div class="car-grid" id="carGrid">
+      <div class="car-card" data-name="Rolls-Royce Phantom">
+        <img src="image/rolls-royce.jfif" alt="Rolls-Royce Phantom">
+        <h3>Rolls-Royce Phantom</h3>
+        <p>Luxury, power, and elegance combined. Starting from $500,000.</p>
+       <a href="../Rolls Royce/rolls.html"><button>Buy</button></a>
+
+        <button class="secondary">Customize</button>
+      </div>
+      <div class="car-card" data-name="Bugatti Chiron">
+        <img src="image/Bugatti Chiron.png" alt="Bugatti">
+        <h3>Bugatti Chiron</h3>
+        <p>Hypercar performance with unmatched luxury. From $3 million.</p>
+        <a href="../bugati/Bugatti.html"><button>Buy</button></a>
+
+        <button class="secondary">Customize</button>
+      </div>
+      <div class="car-card" data-name="Aston Martin">
+        <img src="image/Aston Martin.png" alt="Aston">
+        <h3>Aston Martin Valkyrie</h3>
+        <p>High-performance grand tourer with style and speed.</p>
+        <a href="../Aston Martin/Aston Martin.html"><button>Buy</button></a>
+        <button class="secondary">Customize</button>
+      </div>
+      <div class="car-card" data-name="Ferrari Daytona SP3">
+        <img src="image/Ferrari.jfif" alt="Ferrari">
+        <h3>Ferrari Daytona SP3</h3>
+        <p>Iconic design, limited edition. Starting at $2 million.</p>
+        <a href="../Ferrari/Ferrari.html"><button>Buy</button></a>
+        <button class="secondary">Customize</button>
+      </div>
+    </div>
+  </section>
+  
+  <div class="bottom-nav">
+    <div class="nav-logo">
+      <img src="image/image 1.jpg" alt="LuxeDrive Logo" />
+    </div>
+    <div class="nav-links">
+      <a href="../Home/index.html">Home</a>
+      <a href="../About me/About.html">About</a>
+      <a href="../Support/Support.html">Support</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
